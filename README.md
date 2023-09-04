@@ -28,7 +28,7 @@ Os dados são buscados por: **Início e Fim, Variáveis, frequência (ex:cada 24
 
 **Criação do layout completo, podendo inovar, mas seguindo os seguintes requisitos:**
 
-* Botões para exportação pura CSV, PDF e PNG
+* Botões para exportação para CSV, PDF e PNG
 * Interação entre os componentes
 * Mapa interativo com marcadores (cores dinâmicas baseadas em critérios), para cada ponto de monitoramento ou estação. Desenhar um retângulo (selecionar uma área) e saber que estações estão na área e passar uma lista de identificadores para a API.
 * Gráficos esteticamente otimizados, que possuem os seguintes dados: Velocidade do vento, rajada de vento e direção do vento. Ser responsivo, podem selecionar quais dados quer mostrar no momento. O eixo se adapta dependendo da frequência que o usuário selecionou.
