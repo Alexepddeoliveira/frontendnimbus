@@ -1,39 +1,63 @@
-# Projeto Nimbus Meteorologia
-**Sobre a empresa:**
+# Projeto Nimbus Meteorologia - Atualizado
 
-Empresa do Rio de Janeiro que foi formada durante a pandemia, possui parceria com centro de operações Rio e monitora pontos de obras por todo território brasileiro e as chuvas para identificar pontos de melhoria. Atuam em todo território brasileiro.
+**Propósito:**
 
-**Como é a plataforma:** 
+Atualizar o histórico de dados da plataforma Cronos para que haja uma otimização estética em termos de desempenho, responsividade e intuitividade.
 
-Absorve dados meteorológicos por radar em tempo real, dados de raios e estações que fazem monitoramento de chuva, assim como dados de obras (cronograma, localização etc. Exibe também previsão do tempo de até 15 dias. Cliente alvo é a defesa civil, rio de Janeiro, são Paulo e Curitiba, e o produto é vendido para empresas, engenheiros e funcionários de campo utilizam o celular para acessar a plataforma, modelo de assinatura mensal dependendo no número de funcionários e acessos.
+# 5W2H
 
-**O site:**
+**O que:**
 
-**CronosCity:**
-Previsão personalizada por área, alertas de deslocamento e tempestades em tempo real, e históricos de dados disponíveis para exportação para relatórios e laudos
+Modernizar a interface do display de dados do site.
 
-**Qual o objetivo do display do histórico de dados:**
+**Como:**
 
-O histórico de dados é recuperado através de uma API e exportados no formato de arquivo de tabela.
-Fluxo de dados ocorre o tempo todo, existem clientes que trabalham 24hrs por dia, outros durante horário comercial. Algumas empresas de engenharia procuram para saber se durante uma janela de tempo ocorrerá obras, tempestades etc. Ou seja, para saber se a condição meteorológica estará positiva.
+Utilizando git(github), VSCode, Navegador, React.js e Node.js.
 
-# Proposta:
+**Por quê:**
 
-Criar uma página mais robusta, que disponibilize os seguintes formatos: 
-* Tabelas
-*	Gráficos(informações)
-*	Marcadores
+Melhorar a UI do site, de forma que, aumente a captação de usuários e aprimore a experiência deles na plataforma.
 
-Os dados são buscados por: **Início e Fim, Variáveis, frequência (ex:cada 24hrs), estação ou ponto de monitoramento e operação**
+**Quando:**
 
-**Criação do layout completo, podendo inovar, mas seguindo os seguintes requisitos:**
+Ao longo do período.
 
-* Botões para exportação para CSV, PDF e PNG
-* Interação entre os componentes
-* Mapa interativo com marcadores (cores dinâmicas baseadas em critérios), para cada ponto de monitoramento ou estação. Desenhar um retângulo (selecionar uma área) e saber que estações estão na área e passar uma lista de identificadores para a API.
-* Gráficos esteticamente otimizados, que possuem os seguintes dados: Velocidade do vento, rajada de vento e direção do vento. Ser responsivo, podem selecionar quais dados quer mostrar no momento. O eixo se adapta dependendo da frequência que o usuário selecionou.
-* Em relação a tabela, melhorar sua visualização com propostas novas de layout, além da opção de exporta-la. O problema é que ela não é exibida no site, eles utilizam Excel.
-* Adaptação para mobile, no celular deve conseguir utilizar de maneira prática (como fazer movimento de pinça no mapa)
+**Quem:**
+
+A defesa civil, órgãos governamentais do Rio de Janeiro, São Paulo e Curitiba, empresas de engenharia e profissionais de campo.
+
+**Onde:**
+
+No plataforma WEB, https://cronos.nimbusmeteorologia.com.br/, podendo ser acessado por dispositivos móveis e desktop.
+
+**Quanto:** 
+
+O projeto será voluntário.
+
+
+# Requisitos Funcionais:
+* [RF1] Dados devem ser disponibilizados em formato de tabelas, gráficos e marcadores georreferenciados em um mapa.
+* [RF2] Todos os componentes devem ter interação entre si.
+* [RF3] Requisição de dados deve ser feita através de um formulário de busca devendo inserir: **Início e Fim, Variáveis, frequência (ex:cada 24hrs), estação ou ponto de monitoramento e operação**
+* [RF4] Propor um novo layout.
+* [RF5] Possuir um preenchimento de cor de acordo com critérios de criticidade.
+* [RF6] Criar um mapa interativo com marcadores para cada ponto de monitoramento e estação.
+* [RF7] O marcador no mapa deve permitir a seleção de mais de um ponto.
+* [RF8] Permitir a interação com o gráfico
+* [RF9] Permitir a seleção de variáveis que serão exibidas simultaneamente.
+* [RF10] Permitir que o gráfico adapte a frequência temporal (eixo horizontal) e ordem de grandeza (eixo vertical) ao tipo de variável exibida.
+
+
+
+# Requisitos Não-Funcionais:
+* [RNF1] Possibilitar que o usuário possua a opção de exportar para CSV, PDF e PNG
+* [RNF2] Estar disponível para o usuário 24/7; 
+* [RNF3] Ser desenvolvido com o React;
+* [RNF4] Deve rodar em vários tipos de navegadores; 
+* [RNF5] Estar hospedado no GitHub; 
+* [RNF6] Deve possuir adaptação para mobile;
+
+
 
 *Observações:*
 
