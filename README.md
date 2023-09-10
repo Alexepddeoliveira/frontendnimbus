@@ -1,4 +1,4 @@
-# Projeto Nimbus Meteorologia - Atualizado
+# Projeto Nimbus Meteorologia
 
 **Propósito:**
 
