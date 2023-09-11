@@ -36,16 +36,15 @@ O projeto será voluntário.
 
 
 # Requisitos Funcionais:
-* [RF1] Dados devem ser disponibilizados em formato de tabelas, gráficos e marcadores georreferenciados em um mapa.
-* [RF2] Todos os componentes devem ter interação entre si.
-* [RF3] Requisição de dados deve ser feita através de um formulário de busca devendo inserir: **Início e Fim, Variáveis, frequência (ex:cada 24hrs), estação ou ponto de monitoramento e operação**
-* [RF4] Propor um novo layout.
-* [RF5] Possuir um preenchimento de cor de acordo com critérios de criticidade.
-* [RF6] Criar um mapa interativo com marcadores para cada ponto de monitoramento e estação.
-* [RF7] O marcador no mapa deve permitir a seleção de mais de um ponto.
-* [RF8] Permitir a interação com o gráfico
-* [RF9] Permitir a seleção de variáveis que serão exibidas simultaneamente.
-* [RF10] Permitir que o gráfico adapte a frequência temporal (eixo horizontal) e ordem de grandeza (eixo vertical) ao tipo de variável exibida.
+* [RF1] O sistema deve disponibilizar dados em formato de tabelas, gráficos e marcadores georreferenciados em um mapa.
+* [RF2] O sistema deve conter requisição de dados através de um formulário de busca devendo inserir: **Início e Fim, Variáveis, frequência (ex:cada 24hrs), estação ou ponto de monitoramento e operação**
+* [RF3] Propor um novo layout.
+* [RF4] Possuir um preenchimento de cor de acordo com critérios de criticidade.
+* [RF5] Criar um mapa interativo com marcadores para cada ponto de monitoramento e estação.
+* [RF6] O marcador no mapa deve permitir a seleção de mais de um ponto.
+* [RF7] Permitir a interação com o gráfico
+* [RF8] Permitir a seleção de variáveis que serão exibidas simultaneamente.
+* [RF9] Permitir que o gráfico adapte a frequência temporal (eixo horizontal) e ordem de grandeza (eixo vertical) ao tipo de variável exibida.
 
 
 
