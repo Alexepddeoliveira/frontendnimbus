@@ -38,19 +38,18 @@ O projeto será voluntário.
 # Requisitos Funcionais:
 * [RF1] O sistema deve disponibilizar dados em formato de tabelas, gráficos e marcadores georreferenciados em um mapa.
 * [RF2] O sistema deve conter requisição de dados através de um formulário de busca devendo inserir: **Início e Fim, Variáveis, frequência (ex:cada 24hrs), estação ou ponto de monitoramento e operação**
-* [RF3] Propor um novo layout.
-* [RF4] Possuir um preenchimento de cor de acordo com critérios de criticidade.
-* [RF5] Criar um mapa interativo com marcadores para cada ponto de monitoramento e estação.
-* [RF6] O marcador no mapa deve permitir a seleção de mais de um ponto.
-* [RF7] Permitir a interação com o gráfico
-* [RF8] Permitir a seleção de variáveis que serão exibidas simultaneamente.
-* [RF9] Permitir que o gráfico adapte a frequência temporal (eixo horizontal) e ordem de grandeza (eixo vertical) ao tipo de variável exibida.
+* [RF3] Possuir um preenchimento de cor de acordo com critérios de criticidade.
+* [RF4] Criar um mapa interativo com marcadores para cada ponto de monitoramento e estação.
+* [RF5] O marcador no mapa deve permitir a seleção de mais de um ponto.
+* [RF6] Permitir a interação com o gráfico
+* [RF7] Permitir a seleção de variáveis que serão exibidas simultaneamente.
+* [RF8] Permitir que o gráfico adapte a frequência temporal (eixo horizontal) e ordem de grandeza (eixo vertical) ao tipo de variável exibida.
 
 
 
 # Requisitos Não-Funcionais:
-* [RNF1] Possibilitar que o usuário possua a opção de exportar para CSV, PDF e PNG
-* [RNF2] Estar disponível para o usuário 24/7; 
+* [RNF1] Estar disponível para o usuário 24/7;
+* [RNF2] Propor um novo layout.
 * [RNF3] Ser desenvolvido com o React;
 * [RNF4] Deve rodar em vários tipos de navegadores; 
 * [RNF5] Estar hospedado no GitHub; 
