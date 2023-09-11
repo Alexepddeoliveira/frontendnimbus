@@ -1,21 +1,27 @@
 # Projeto Nimbus Meteorologia
 
+**Sobre a empresa:**
+
+Empresa do Rio de Janeiro que foi formada durante a pandemia, possui parceria com centro de operações Rio e monitora pontos de obras por todo território brasileiro e as chuvas para identificar pontos de melhoria. Atuam em todo território brasileiro.
+
+
 **Propósito:**
 
-A Nimbus disponibiliza seu serviço de absorção de dados meteorológicos por radar em tempo real, dados de raios e estações que fazem monitoramento de chuva, assim como dados de obras (cronograma, localização etc.) Também entrega uma revisão personalizada por área, alertas de deslocamento e tempestades em tempo real, e históricos de dados disponíveis para exportação para relatórios e laudos em um site que será desenvolvido para facilitar a distribuição dessas informaçoes a empresas de engenharia, defesa civil ou orgãos governamentais do Rio de Janeiro,Sao Paulo e Curitiba
+A Nimbus disponibiliza seu serviço de absorção de dados meteorológicos por radar em tempo real, dados de raios e estações que fazem monitoramento de chuva, assim como dados de obras (cronograma, localização etc.) Também entrega uma revisão personalizada por área, alertas de deslocamento e tempestades em tempo real, e históricos de dados disponíveis para exportação para relatórios e laudos em um site que será desenvolvido para facilitar a distribuição dessas informaçoes a empresas de engenharia, defesa civil ou orgãos governamentais do Rio de Janeiro, Sao Paulo e Curitiba. O objetivo é atualizar o histórico de dados da plataforma Cronos para que haja uma otimização estética em termos de desempenho, responsividade e intuitividade.
 # 5W2H
 
 **O que:**
 
-Modernizar a interface do display de dados do site.
+O sistema é uma ferramenta que oferece uma previsão personalizada por área, alertas de deslocamento e tempestades em tempo real, e históricos de dados disponíveis para exportação para relatórios e laudos. O projeto é para modernizar a interface do display de dados do site.
 
 **Como:**
 
-Utilizando git(github), VSCode, Navegador, React.js e Node.js.
+O sistema Cronos funciona com um modelo de assinatura mensal dependendo no número de funcionários e acessos. Nós iremos criar o novo histórico de dados utilizando git(github), VSCode, Navegador, React.js e Node.js.
 
 **Por quê:**
 
-Melhorar a UI do site, de forma que, aumente a captação de usuários e aprimore a experiência deles na plataforma.
+Atualmente o histórico de dados meteorológicos armazenados no banco de dados são recuperados através
+de uma API e exportados no formato de arquivo de tabela. O objetivo é melhorar a UI do site, de forma que, aumente a captação de usuários e aprimore a experiência deles na plataforma.
 
 **Quando:**
 
