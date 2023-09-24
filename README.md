@@ -40,6 +40,29 @@ Perguntas | Respostas
 * [RNF6] Deve possuir adaptação para mobile;
 * [RNF7] Deve tratar o JSON recebido com os dados.
 
+# 📇Casos de Uso:
+<p> <strong>Nome</strong>: Exportação de Dados</p>   
+ <p><strong>Atores </strong>: O usuário</p>
+ <p><strong>Pré-condições</strong>: Estar logado no sistema cronos</p>
+ 
+ <strong>Fluxo Básico</strong>:  
+ 
+ <p>1️⃣ O usuário deve selecionar a opção " visualizar dados e variáveis meteorlógicas" do sistema</p> 
+ <p>2️⃣ O sistema apresenta as opções de visualização para o usuário</p>
+ <p>3️⃣ O usuário escolhe como deseja visualizar os dados</p>
+ <p>4️⃣ O sistema apresenta opções para refinar os dados apresentados</p>
+ <p>5️⃣ O usário escolhe as opções de modo à detalhar a apresentação de acordo com suas necessidades</p>
+ <p>6️⃣ O sistema exibe os dados de acordo com as escolhas do usuário</p>
+  <p>7️⃣ O sistema apresenta opções de exportação, sendo elas CSV,PDF e PNG</p>
+  <p>8️⃣ O usuário escolhe como deseja exportar os dados visualizados</p>
+  <p>9️⃣ O sistema exporta os dados para a máquina do usuário</p>
+ <strong>Pós-condições</strong>: 
+  <p>1️⃣ O arquivo é exportado para a maquina do usuário</p>
+  <p>2️⃣ O sistema apresenta uma mensagem demonstrando que o arquivo foi exportado com sucesso </p>
+  <p>3️⃣ A exportação é lançada no histórico do cliente</p>
+ 
+ 
+
 
 
 # ✏️ Observações:
