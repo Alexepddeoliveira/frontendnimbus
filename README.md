@@ -4,7 +4,7 @@ A Nimbus é uma empresa do Rio de Janeiro que foi formada durante a pandemia, po
 
 # 🎯 **Propósito:**
 
-A Nimbus disponibiliza seu serviço de absorção de dados meteorológicos por radar em tempo real, dados de raios e estações que fazem monitoramento de chuva, assim como dados de obras (cronograma, localização etc.) Também entrega uma revisão personalizada por área, alertas de deslocamento e tempestades em tempo real, e históricos de dados disponíveis para exportação para relatórios e laudos em um site que será desenvolvido para facilitar a distribuição dessas informaçoes a empresas de engenharia, defesa civil ou orgãos governamentais do Rio de Janeiro, Sao Paulo e Curitiba. O objetivo é atualizar o histórico de dados da plataforma Cronos para que haja uma otimização estética em termos de desempenho, responsividade e intuitividade.
+O propósito do sistema é fornercer aos seus usuários ferramentas que possibilitem uma melhor visualização e análise de dados meteorológicos, além de permitir a exportação de relatorios personalizados/do histórico de dados para facilitar a tomada de decisões de seus usuários. O propósito do grupo é atualizar a plataforma Cronos e suas ferramentas de visualização e exportação de dados otimizando o desempenho, responsividade e intuitividade da plataforma.
 
 # 📋 5W2H
 
