@@ -41,25 +41,21 @@ Perguntas | Respostas
 * [RNF7] Deve tratar o JSON recebido com os dados.
 
 # 📇Casos de Uso:
-<p> <strong>Nome</strong>: Exportação de Dados</p>   
- <p><strong>Atores </strong>: O usuário</p>
- <p><strong>Pré-condições</strong>: Estar logado no sistema cronos</p>
- 
- <strong>Fluxo Básico</strong>:  
- 
- <p>1️⃣ O usuário deve selecionar a opção " visualizar dados e variáveis meteorlógicas" do sistema</p> 
- <p>2️⃣ O sistema apresenta as opções de visualização para o usuário</p>
- <p>3️⃣ O usuário escolhe como deseja visualizar os dados</p>
- <p>4️⃣ O sistema apresenta opções para refinar os dados apresentados</p>
- <p>5️⃣ O usário escolhe as opções de modo à detalhar a apresentação de acordo com suas necessidades</p>
- <p>6️⃣ O sistema exibe os dados de acordo com as escolhas do usuário</p>
-  <p>7️⃣ O sistema apresenta opções de exportação, sendo elas CSV,PDF e PNG</p>
-  <p>8️⃣ O usuário escolhe como deseja exportar os dados visualizados</p>
-  <p>9️⃣ O sistema exporta os dados para a máquina do usuário</p>
- <strong>Pós-condições</strong>: 
-  <p>1️⃣ O arquivo é exportado para a maquina do usuário</p>
-  <p>2️⃣ O sistema apresenta uma mensagem demonstrando que o arquivo foi exportado com sucesso </p>
-  <p>3️⃣ A exportação é lançada no histórico do cliente</p>
+
+Elementos | Descrição
+--------------------------------|------------------------------------------------------------
+**Nome** | Exportação de Dados
+**Atores** | O usuário
+**Pré-condições** | Estar logado no sistema cronos
+**Fluxo Básico** | <ol><li>O usuário deve selecionar a opção " visualizar dados e variáveis meteorlógicas" do sistema</li><li>O sistema apresenta as opções de visualização para o usuário</li><li>O usuário escolhe como deseja visualizar os dados</li><li>O sistema apresenta opções para refinar os dados apresentados</li><li>O usário escolhe as opções de modo à detalhar a apresentação de acordo com suas necessidades</li><li>O sistema exibe os dados de acordo com as escolhas do usuário</li><li>O sistema apresenta opções de exportação, sendo elas CSV,PDF e PNG</li><li>O usuário escolhe como deseja exportar os dados visualizados</li><li>O sistema exporta os dados para a máquina do usuário</li></ol>
+**Pós-condições** | <ol><li>O arquivo é exportado para a maquina do usuário</li><li>O sistema apresenta uma mensagem demonstrando que o arquivo foi exportado com sucesso</li><li>A exportação é lançada no histórico do cliente</li></ol>
+---------------|------------------------------------------------------------
+**Nome** | Visualização e Análise de Dados
+**Atores** | O usuário
+**Pré-condições** | Estar logado no sistema cronos
+**Fluxo Básico:** | <ol><li> O usuário deve selecionar a opção "histórico de dados" do sistema</li><li>O sistema apresenta as opções de visualização para o usuário</li><li>O usuário escolhe como gostaria de visualizar os dados</li><li>O sistema apresenta opções de filtros para refinar os dados apresentados de acordo com as váriaveis disponíveis</li><li>O sistema mostra os dados conforme as preferências do usuário.</li><li>O sistema apresenta os dados de acordo com as configurações selecionadas.</li>
+**Pós-condições:** | <ol><li>Os dados são exibidos de acordo com as escolhas do usuário de acordo com os filtros selecionados.</li><li>O sistema permite a seleção dos filtros para ajustar quais dados serão exibidos após.</li><li>A visualização dos dados é realizada com êxito</li>
+
  
  
 
