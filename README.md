@@ -4,7 +4,7 @@ A Nimbus é uma empresa do Rio de Janeiro que foi formada durante a pandemia, po
 
 # 🎯 **Propósito:**
 
-O propósito do sistema é fornercer aos seus usuários ferramentas que possibilitem uma melhor visualização e análise de dados meteorológicos, além de permitir a exportação de relatorios personalizados/do histórico de dados para facilitar a tomada de decisões de seus usuários. O propósito do grupo é atualizar a plataforma Cronos e suas ferramentas de visualização e exportação de dados otimizando o desempenho, responsividade e intuitividade da plataforma.
+O propósito do sistema é fornercer aos seus usuários ferramentas que possibilitem uma melhor visualização e análise de dados meteorológicos por meio de tabelas, gráficos e mapas, possibilitando ao usuário determinar quais váriaveis deseja visualizar, além de permitir a exportação do histórico de dados e de relatorios personalizados para facilitar a tomada de decisões de seus usuários.
 
 # 📋 5W2H
 
