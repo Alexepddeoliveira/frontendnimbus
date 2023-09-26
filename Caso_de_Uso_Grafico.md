@@ -1,3 +1,5 @@
+Elementos | Descrição
+------------------------------|----------------------------------------------
 **Nome** | Visualizar e Análisar os Dados(gráfico)
 **Atores** | O usuário
 **Pré-condições** | Estar logado no sistema cronos 
