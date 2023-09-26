@@ -1,6 +1,6 @@
 Elementos | Descrição
 ------------------------------|----------------------------------------------
-**Nome** | Visualizar e Análisar os Dados(mapa)
+**Nome** | Análisar os Dados (Mapa)
 **Atores** | O usuário
 **Pré-condições** | Estar logado no sistema cronos 
 **Fluxo Básico:** | <ol><li> O usuário deve selecionar a opção "histórico de dados" do sistema</li><li>O sistema apresenta opções de filtros para refinar os dados apresentados de acordo com as váriaveis disponíveis, sendo elas inicio e fim( com dia,mês,ano e hora), variáveis meteorológicas(Direção do vento, temperatura ponto de orvalho,umidade relativa,cota de transbordamento,rajada de vento,visibilidade,velocidade do vento,temperatura,descrição do tempo),frequência(original ou agrupado em invervalo personalizado), estação(local) ou ponto de monitoramento, operação matemática(acumulado,média,máximo,mínimo)</li><li>O sistema apresenta os dados de acordo com as configurações selecionadas, gerando um mapa interativo que demonstra as estações meteorológicas coliridas de acordo com seus estado, sendo cinza sem medição, verde sem chuva, azul chuva fraca, amarela chuva moderada, laranja chuva forte, vermelho chuva muito forte.</li><li> O usuario seleciona uma área no mapa ou uma estação específica</li><li> O sistema mostra as informações conforme as vontades do usuário</li>
