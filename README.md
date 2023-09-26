@@ -42,6 +42,9 @@ Perguntas | Respostas
 
 # 📇Casos de Uso:
 * <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/fb025b52bbf35ac436c31a4b68394b13ecd5c7b9/Caso_de_Uso_Exportar.md"> Caso de Uso Exportar </a>
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/a33860e663071646719d3563f25a889c8fb14666/Caso_de_Uso_Grafico.md"> Caso de Uso Grafico </a>
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/a33860e663071646719d3563f25a889c8fb14666/Caso_de_Uso_Mapa.md"> Caso de Uso Mapa </a>
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/a33860e663071646719d3563f25a889c8fb14666/Caso_de_Uso_Tabela.md"> Caso de Uso Tabela </a>
 
 # ✏️ Observações:
 
