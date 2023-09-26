@@ -41,7 +41,7 @@ Perguntas | Respostas
 * [RNF7] Deve tratar o JSON recebido com os dados.
 
 # 📇Casos de Uso:
-https://github.com/Alexepddeoliveira/frontendnimbus/blob/fb025b52bbf35ac436c31a4b68394b13ecd5c7b9/Caso_de_Uso_Exportar.md
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/fb025b52bbf35ac436c31a4b68394b13ecd5c7b9/Caso_de_Uso_Exportar.md"> Caso de Uso Exportar </a>
 
 # ✏️ Observações:
 
