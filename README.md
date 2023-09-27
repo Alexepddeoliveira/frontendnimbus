@@ -46,6 +46,9 @@ Perguntas | Respostas
 * <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/5ac8219c443fb1ced729a09a07ce632736650306/Caso_de_Uso_Mapa.md"> Caso de Uso Mapa </a>
 * <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/5ac8219c443fb1ced729a09a07ce632736650306/Caso_de_Uso_Tabela.md"> Caso de Uso Tabela </a>
 
+# 📱 Protótipo da interface:
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/b5e0036b8aa09b088147e8f63376ea4211740aec/Prototipo_Interface.md"> Protótipo Mobile </a>
+
 # ✏️ Observações:
 
  * Formato de dados que iremos receber será arquivo json que possuirão dados de forma estruturada, estações tem diferentes variáveis, sendo uma lista bastante extensa que muda de acordo com as estações.
