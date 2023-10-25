@@ -4,7 +4,7 @@ A Nimbus é uma empresa do Rio de Janeiro que foi formada durante a pandemia, po
 
 # 🎯 **Propósito:**
 
-O propósito do sistema é fornercer aos seus usuários ferramentas que possibilitem uma melhor visualização e análise de dados meteorológicos, além de permitir a exportação de relatorios personalizados/do histórico de dados para facilitar a tomada de decisões de seus usuários. O propósito do grupo é atualizar a plataforma Cronos e suas ferramentas de visualização e exportação de dados otimizando o desempenho, responsividade e intuitividade da plataforma.
+O propósito do sistema é fornercer aos seus usuários ferramentas que possibilitem uma melhor visualização e análise de dados meteorológicos por meio de tabelas, gráficos e mapas, possibilitando ao usuário determinar quais váriaveis deseja visualizar, além de permitir a exportação do histórico de dados e de relatorios personalizados para facilitar a tomada de decisões de seus usuários.
 
 # 📋 5W2H
 
@@ -41,25 +41,13 @@ Perguntas | Respostas
 * [RNF7] Deve tratar o JSON recebido com os dados.
 
 # 📇Casos de Uso:
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/fb025b52bbf35ac436c31a4b68394b13ecd5c7b9/Caso_de_Uso_Exportar.md"> Caso de Uso Exportar </a>
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/5ac8219c443fb1ced729a09a07ce632736650306/Caso_de_Uso_Grafico.md"> Caso de Uso Grafico </a>
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/5ac8219c443fb1ced729a09a07ce632736650306/Caso_de_Uso_Mapa.md"> Caso de Uso Mapa </a>
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/5ac8219c443fb1ced729a09a07ce632736650306/Caso_de_Uso_Tabela.md"> Caso de Uso Tabela </a>
 
-Elementos | Descrição
---------------------------------|------------------------------------------------------------
-**Nome** | Exportação de Dados
-**Atores** | O usuário
-**Pré-condições** | Estar logado no sistema cronos
-**Fluxo Básico** | <ol><li>O usuário deve selecionar a opção " visualizar dados e variáveis meteorlógicas" do sistema</li><li>O sistema apresenta as opções de visualização para o usuário</li><li>O usuário escolhe como deseja visualizar os dados</li><li>O sistema apresenta opções para refinar os dados apresentados</li><li>O usário escolhe as opções de modo à detalhar a apresentação de acordo com suas necessidades</li><li>O sistema exibe os dados de acordo com as escolhas do usuário</li><li>O sistema apresenta opções de exportação, sendo elas CSV,PDF e PNG</li><li>O usuário escolhe como deseja exportar os dados visualizados</li><li>O sistema exporta os dados para a máquina do usuário</li></ol>
-**Pós-condições** | <ol><li>O arquivo é exportado para a maquina do usuário</li><li>O sistema apresenta uma mensagem demonstrando que o arquivo foi exportado com sucesso</li><li>A exportação é lançada no histórico do cliente</li></ol>
----------------|------------------------------------------------------------
-**Nome** | Visualização e Análise de Dados
-**Atores** | O usuário
-**Pré-condições** | Estar logado no sistema cronos
-**Fluxo Básico:** | <ol><li> O usuário deve selecionar a opção "histórico de dados" do sistema</li><li>O sistema apresenta as opções de visualização para o usuário</li><li>O usuário escolhe como gostaria de visualizar os dados</li><li>O sistema apresenta opções de filtros para refinar os dados apresentados de acordo com as váriaveis disponíveis</li><li>O sistema mostra os dados conforme as preferências do usuário.</li><li>O sistema apresenta os dados de acordo com as configurações selecionadas.</li>
-**Pós-condições:** | <ol><li>Os dados são exibidos de acordo com as escolhas do usuário de acordo com os filtros selecionados.</li><li>O sistema permite a seleção dos filtros para ajustar quais dados serão exibidos após.</li><li>A visualização dos dados é realizada com êxito</li>
-
- 
- 
-
-
+# 📱 Protótipo da interface:
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/b5e0036b8aa09b088147e8f63376ea4211740aec/Prototipo_Interface.md"> Protótipo Mobile </a>
 
 # ✏️ Observações:
 
