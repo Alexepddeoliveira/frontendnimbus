@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Map from './components/map.js';
+import './App.css';
+
 
 function App() {
   return (
@@ -18,6 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
+
+      {/* Renderize o componente de mapa aqui */}
+      <Map />
     </div>
   );
 }
