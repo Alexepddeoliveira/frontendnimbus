@@ -67,7 +67,6 @@ function Map() {
           value={locationInput}
           onChange={(e) => setLocationInput(e.target.value)}
         />
-        
         <button onClick={handleConfirmLocation}>Confirmar Localização</button>
       </div>
       <button onClick={handleAddMarker}>Adicione um marcador</button>
