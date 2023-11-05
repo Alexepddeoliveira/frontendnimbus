@@ -57,7 +57,8 @@ Perguntas | Respostas
  * Documentação é pelo GITHUB, a parte da API tem mais documentação que front end.
 
 # 🔎 Pesquisa de componentes React:
- * Componente para implementar o mapa: Leaflet
+ * Componente para implementar o mapa: Leaflet.js - https://leafletjs.com/
+ * Componente para implementar o gráfico: Chart.js - https://www.chartjs.org/
 
 
 # 👤 Integrantes
