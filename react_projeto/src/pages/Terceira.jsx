@@ -1,5 +1,5 @@
 import React from "react";
-import Map from "../components/map.js"; 
+import Map from "../components/map"; 
 import '../components/map.css';
 import LinkPrimeiro from "../components/LinkPrimeira";
 import LinkSegunda from "../components/LinkSegunda";
