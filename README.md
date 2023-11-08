@@ -59,6 +59,7 @@ Perguntas | Respostas
 # 🔎 Pesquisa de componentes React:
  * Componente para implementar o mapa: Leaflet.js - https://leafletjs.com/
  * Componente para implementar o gráfico: Chart.js - https://www.chartjs.org/
+ * API utilizada para o clima: https://open-meteo.com/
 
 
 # 👤 Integrantes
