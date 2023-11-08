@@ -14,7 +14,7 @@ function Map() {
   const [locationInput, setLocationInput] = useState('');
 
   const handleConfirmLocation = async () => {
-      // Converte o nome da cidade em coordenadas usando uma API de geocodificação (por exemplo, o OpenCage Geocoding API)
+      // Converte o nome da cidade em coordenadas usando a OpenCage Geocoding API
       const apiKey = 'c708da0fbeb943ddb696caf4494255a6'; 
       const apiUrl = `https://api.opencagedata.com/geocode/v1/json?q=${locationInput}&key=${apiKey}`;
       
