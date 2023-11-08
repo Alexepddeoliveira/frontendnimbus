@@ -3,10 +3,14 @@ import LinkTerceira from "../components/LinkTerceira";
 
 const Primeira = () => {
     return (<div>
-                <h1>Tabela</h1>
-                <LinkSegunda /> <br/>
+            <header>Tabela</header>
+            <br/>
+            <div style={{display:"flex"}}>
+                <LinkSegunda /> <br/> 
                 <LinkTerceira />
-            </div>);
+            </div>;
+
+        </div>)
 };
 
 export default Primeira;

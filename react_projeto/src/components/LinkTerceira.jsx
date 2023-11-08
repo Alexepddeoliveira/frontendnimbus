@@ -1,3 +1,5 @@
-const LinkTerceira = () => <a href="Terceira">Mapa</a>
+import "../components/style.css"
+
+const LinkTerceira = () => <a className="teste" href="Terceira">Mapa</a>
 
 export default LinkTerceira;
