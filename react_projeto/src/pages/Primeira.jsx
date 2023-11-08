@@ -3,7 +3,7 @@ import LinkTerceira from "../components/LinkTerceira";
 
 const Primeira = () => {
     return (<div>
-            <header>Tabela</header>
+            <header>Histórico de Dados - Tabela</header>
             <br/>
             <div style={{display:"flex"}}>
                 <LinkSegunda /> <br/> 

@@ -31,6 +31,10 @@ import Checkbox from '@mui/material/Checkbox';
 
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
 
 ChartJS.register(
   CategoryScale,
@@ -42,7 +46,6 @@ ChartJS.register(
   Legend,
   BarElement
 );
-
 
 
 const options = {
@@ -319,9 +322,15 @@ return (<div>
                         <FormControlLabel name="wind_direction_10m_dominant" control={<Checkbox defaultChecked/>} label="Direção do vento" />
                     </Stack >
                 </FormGroup>
-                
-                <Button variant="contained" onClick={requestWheatherDataDaily} >Pesquisar</Button>
-
+                <Grid container spacing={2}>
+                 <Grid item xs={1}>
+                     <Button variant="contained" onClick={requestWheatherDataDaily} >Pesquisar</Button>
+                 </Grid>
+                 <Grid item xs={1}>
+                     <Button variant="contained">Exportar</Button>
+                 </Grid> 
+               </Grid>
+    
                 {(!!graphDataDaily && wheaterOptionsDaily.length > 0)  && <Chart ref={chartRef} options={options} type='bar' data={graphDataDaily} />}
 
             </div>;
