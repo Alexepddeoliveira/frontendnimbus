@@ -56,6 +56,12 @@ Perguntas | Respostas
  * Hoje não possui uma tabela no banco de dados das variáveis, eles possuem variáveis que não tem muita demanda. 
  * Documentação é pelo GITHUB, a parte da API tem mais documentação que front end.
 
+# 🔎 Pesquisa de componentes React:
+ * Componente para implementar o mapa: Leaflet.js - https://leafletjs.com/
+ * Componente para implementar o gráfico: Chart.js - https://www.chartjs.org/
+ * API utilizada para o clima: https://open-meteo.com/
+
+
 # 👤 Integrantes
  * Alex Oliveira
  * Bernardo Mascarenhas
