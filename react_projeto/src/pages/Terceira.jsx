@@ -4,9 +4,10 @@ import '../components/map.css';
 import LinkPrimeiro from "../components/LinkPrimeira";
 import LinkSegunda from "../components/LinkSegunda";
 
+
 const Terceira = () => {
   return (<div>
-         <header>Mapa</header>
+         <header>Histórico de Dados - Mapa</header>
          <br/>
          <div style={{display:"flex"}}>
           <LinkPrimeiro /> <br />
