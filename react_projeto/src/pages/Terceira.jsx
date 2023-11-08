@@ -5,13 +5,15 @@ import LinkPrimeiro from "../components/LinkPrimeira";
 import LinkSegunda from "../components/LinkSegunda";
 
 const Terceira = () => {
-  return (
-    <div>
-      <h1>Mapa</h1>
-      {/* Renderizar o componente de mapa */}
-      <Map />
-      <LinkPrimeiro /> <br />
-      <LinkSegunda />
+  return (<div>
+         <header>Mapa</header>
+         <br/>
+         <div style={{display:"flex"}}>
+          <LinkPrimeiro /> <br />
+          <LinkSegunda />
+         </div>
+         {/* Renderizar o componente de mapa */}
+         <Map />
     </div>
   );
 };

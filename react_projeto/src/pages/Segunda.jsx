@@ -273,11 +273,15 @@ const Segunda = () => {
 
     }
 
-
-    return (<div>
-                <h1>Gráfico</h1>
+return (<div>
+            <header>Histórico de Dados - Gráfico</header>
+            <br/>
+            <div style={{display:"flex"}}>
                 <LinkPrimeiro /> <br/>
                 <LinkTerceira /> <br/><br/><br/>
+            </div>
+            
+            <div>    
                 <InputLabel id="city-select-label">Cidade</InputLabel>
                 <Select
                     labelId="city-select"
@@ -320,7 +324,9 @@ const Segunda = () => {
 
                 {(!!graphDataDaily && wheaterOptionsDaily.length > 0)  && <Chart ref={chartRef} options={options} type='bar' data={graphDataDaily} />}
 
-            </div>);
-};
+            </div>;
+
+         </div>
+)};
 
 export default Segunda;
