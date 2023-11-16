@@ -1,0 +1,20 @@
+.teste {
+    color: black;
+    background-color: lightblue;
+    border: solid 5px #1876d2;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+header {
+    background-color: lightblue;
+    font-size: 25px;
+    
+    border-bottom: 2px solid black;
+    padding: 20px 60px 30px 5px;
+}
+

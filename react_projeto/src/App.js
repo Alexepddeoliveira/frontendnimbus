@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import Map from './components/map.js';
+import Map from './components/map';
 import './App.css';
 
 
