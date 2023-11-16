@@ -35,6 +35,7 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
+import LinkQuarta from '../components/LinkQuarta';
 
 ChartJS.register(
   CategoryScale,
@@ -277,13 +278,16 @@ const Segunda = () => {
     }
 
 return (<div>
-            <header>Histórico de Dados - Gráfico</header>
-            <br/>
-            <div style={{display:"flex"}}>
-                <LinkPrimeiro /> <br/>
-                <LinkTerceira /> <br/><br/><br/>
-            </div>
-            
+            <header>
+                    <div id="barra_escolhas">
+                    <LinkPrimeiro />
+                    <LinkTerceira />
+                    <LinkQuarta />
+                </div>
+            </header> 
+
+            <h1 id="nome_pag">Histórico de Dados - Gráfico</h1>
+
             <div>    
                 <InputLabel id="city-select-label">Cidade</InputLabel>
                 <Select

@@ -1,20 +1,85 @@
 .teste {
     color: black;
-    background-color: lightblue;
-    border: solid 5px #1876d2;
-    border-radius: 15px;
+    background-color: rgb(253, 253, 253);
+    border: solid 3px #000000;
+    border-radius: 10px;
     text-decoration: none;
     font-size: 20px;
-    padding: 10px;
-    margin: 6px;
+    padding: 10px 36px;
+    margin: 6px 76px;
     cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+}
+
+.teste:hover{
+    background-color: rgba(0, 0, 0, .1);
 }
 
 header {
-    background-color: lightblue;
-    font-size: 25px;
-    
+    background-color: grey;
     border-bottom: 2px solid black;
     padding: 20px 60px 30px 5px;
+}
+
+#barra_escolhas{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#nome_pag{
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.list-wrapper{
+    display: grid;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    max-width: 2200px;
+}
+
+.list{
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    list-style: none;
+}
+
+.list-item{
+    width: 300px;
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+    background-image: url(../imagens/thumb.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item__image img{
+    border-radius: 50%;
+    width: 70px;
+    margin-top: 100px;
+}
+
+.list-item__name{
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+    color: black;
 }
 

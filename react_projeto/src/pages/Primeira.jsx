@@ -5,6 +5,7 @@ import TextField from '@mui/material/TextField';
 import { useTable, useGlobalFilter, useFilters } from "react-table";
 import LinkSegunda from "../components/LinkSegunda";
 import LinkTerceira from "../components/LinkTerceira";
+import LinkQuarta from "../components/LinkQuarta";
 
 // Dados fictícios de estações meteorológicas
 const data = [
@@ -115,13 +116,16 @@ const Primeira = () => {
 
   return (
     <div>
-      <header>Histórico de Dados - Tabela</header>
-      <br/>
-      <div style={{display:"flex"}}>
-                <LinkSegunda /> <br/>
-                <LinkTerceira /> <br/><br/><br/>
-            </div>
-            <br/>
+      <header>
+        <div id="barra_escolhas">
+          <LinkSegunda />
+          <LinkTerceira />
+          <LinkQuarta />
+        </div>
+      </header>
+
+      <h1 id="nome_pag">Histórico de Dados - Tabela</h1>
+
       <div>
       <Grid container spacing={2}>
       <Grid item xs={1.2}>
