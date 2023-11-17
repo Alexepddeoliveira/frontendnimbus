@@ -4,6 +4,8 @@ import LinkSegunda from "../components/LinkSegunda";
 import LinkTerceira from "../components/LinkTerceira";
 import Guilherme from "../imagens/Guilherme.jpg"
 import Bernardo from "../imagens/Bernardo.jpg"
+import Maria from "../imagens/Maria.jpg"
+import Alex from "../imagens/Alex.jpg"
 
 const Quarta = () => {
   return (<div>
@@ -23,6 +25,28 @@ const Quarta = () => {
             <ul class="list">
                 <li class="list-item">
                     <div class="list-item__image">
+                        <img src={Alex}></img>
+                    </div>
+                    <div class="list-item__content">
+                        <p class="list-item__name">Alex Euzébio</p>
+                        <p class="list-item__curso">Engenharia da computação</p>
+                        <p class="list-item__email">Alexpddeoliveira</p>
+                    </div>
+                </li>
+
+                <li class="list-item">
+                    <div class="list-item__image">
+                        <img src={Bernardo}></img>
+                    </div>
+                    <div class="list-item__content">
+                        <p class="list-item__name">Bernardo Mascare</p>
+                        <p class="list-item__curso">Engenharia da computação</p>
+                        <p class="list-item__email">bernardinho123</p>
+                    </div>
+                </li>
+
+                <li class="list-item">
+                    <div class="list-item__image">
                         <img src={Guilherme}></img>
                     </div>
                     <div class="list-item__content">
@@ -34,34 +58,12 @@ const Quarta = () => {
 
                 <li class="list-item">
                     <div class="list-item__image">
-                        <img src={Bernardo}></img>
-                    </div>
-                    <div class="list-item__content">
-                        <p class="list-item__name">Alex Euzébio</p>
-                        <p class="list-item__curso">Engenharia da computação</p>
-                        <p class="list-item__email">AlexAAA</p>
-                    </div>
-                </li>
-
-                <li class="list-item">
-                    <div class="list-item__image">
-                        <img src={Bernardo}></img>
-                    </div>
-                    <div class="list-item__content">
-                        <p class="list-item__name">Bernardo Mascare</p>
-                        <p class="list-item__curso">Engenharia da computação</p>
-                        <p class="list-item__email">Bezinho123</p>
-                    </div>
-                </li>
-
-                <li class="list-item">
-                    <div class="list-item__image">
-                        <img src={Bernardo}></img>
+                        <img src={Maria}></img>
                     </div>
                     <div class="list-item__content">
                         <p class="list-item__name">Maria Castello</p>
                         <p class="list-item__curso">Ciência de dados e IA</p>
-                        <p class="list-item__email">Amaria123</p>
+                        <p class="list-item__email">mariacastello</p>
                     </div>
                 </li>
             </ul>
