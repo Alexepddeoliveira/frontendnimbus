@@ -7,6 +7,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 import Primeira from './pages/Primeira';
 import Segunda from './pages/Segunda';
 import Terceira from './pages/Terceira';
+import Quarta from './pages/Quarta';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
         <Route path="/" element={<Primeira />} />
         <Route path="Segunda" element={<Segunda />} />
         <Route path="Terceira" element={<Terceira />} />
+        <Route path="Quarta" element={<Quarta />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>
