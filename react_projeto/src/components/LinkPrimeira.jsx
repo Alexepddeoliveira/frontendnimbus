@@ -1,5 +1,7 @@
 import "../components/style.css"
 
-const LinkPrimeira = () => <a className="teste" href="/">Tabela</a>
+// Quando testar localmente altera o href="/frontendnimbus" para href="/" ajuste necessário para o github pages
+
+const LinkPrimeira = () => <a className="teste" href="/frontendnimbus">Tabela</a>
 
 export default LinkPrimeira;
