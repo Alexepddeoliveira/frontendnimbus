@@ -2,6 +2,7 @@ import React from "react";
 import LinkPrimeiro from "../components/LinkPrimeira";
 import LinkSegunda from "../components/LinkSegunda";
 import LinkTerceira from "../components/LinkTerceira";
+import logo from "./nimbus-logo1.png";
 import Guilherme from "../imagens/Guilherme.jpg"
 import Bernardo from "../imagens/Bernardo.jpg"
 import Maria from "../imagens/Maria.jpg"
@@ -12,6 +13,7 @@ const Quarta = () => {
     
         <header>
             <div id="barra_escolhas">
+                <img src={logo}/>   
                 <LinkPrimeiro />
                 <LinkSegunda />
                 <LinkTerceira />

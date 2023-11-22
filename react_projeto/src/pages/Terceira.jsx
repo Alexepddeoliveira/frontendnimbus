@@ -4,6 +4,7 @@ import '../components/map.css';
 import LinkPrimeiro from "../components/LinkPrimeira";
 import LinkSegunda from "../components/LinkSegunda";
 import LinkQuarta from "../components/LinkQuarta";
+import logo from "./nimbus-logo1.png";
 
 
 const Terceira = () => {
@@ -11,6 +12,7 @@ const Terceira = () => {
 
          <header>
             <div id="barra_escolhas">
+              <img src={logo}/>
               <LinkPrimeiro />
               <LinkSegunda />
               <LinkQuarta />

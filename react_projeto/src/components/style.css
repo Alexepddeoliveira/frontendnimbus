@@ -16,14 +16,19 @@
 }
 
 header {
-    background-color: grey;
-    border-bottom: 2px solid black;
-    padding: 20px 60px 30px 5px;
+    background-color: burlywood;
+    border-bottom: 2px solid grey;
+    padding: 15px 60px 30px 5px;
+
 }
 
 #barra_escolhas{
     text-align: center;
+    padding: 10px;
     margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #nome_pag{
@@ -83,3 +88,45 @@ header {
     color: black;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+thead {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+#filtro-container {
+    margin-bottom: 15px;
+  }
+  
+#filtro-container > div {
+    justify-content: center;
+    margin-right: 10px;
+  }
+
+#filtro-mapa > div {
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+
+#filtro-grafico >div {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin-block-start: 10px;
+
+}

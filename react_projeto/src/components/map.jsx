@@ -4,7 +4,8 @@ import 'leaflet/dist/leaflet.css';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import TextField from '@mui/material/TextField';
-
+import L from 'leaflet';
+import pin from "./pin-mapa.png";
 
 function Map() {
   const center = [-15.77972, -47.92972];
@@ -12,6 +13,12 @@ function Map() {
 
   const [markers, setMarkers] = useState([]);
   const [locationInput, setLocationInput] = useState('');
+
+  const customIcon = new L.Icon({
+    iconUrl: 'https://cdn.icon-icons.com/icons2/2444/PNG/512/location_map_pin_mark_icon_148685.png', // Insira a URL da sua imagem
+    iconSize: [32, 32], // Tamanho do ícone [largura, altura]
+    iconAnchor: [16, 32], // Posição do ícone em relação ao ponto do marcador [metade da largura, altura]
+  });
 
   const handleConfirmLocation = async () => {
       // Converte o nome da cidade em coordenadas usando a OpenCage Geocoding API
@@ -45,7 +52,7 @@ function Map() {
         />
 
         {markers.map((marker, index) => (
-          <Marker key={index} position={marker.position}>
+          <Marker key={index} position={marker.position} icon={customIcon}>
             <Popup>
               <div>
                 <h2>{marker.title}</h2>
@@ -56,7 +63,7 @@ function Map() {
         ))}
       </MapContainer>
 
-      <div>
+      <div id="filtro-mapa">
         <Grid container spacing={2}>
           <Grid item xs={1.5}>
           <TextField id="outlined-basic" label="Digite uma cidade" variant="outlined" value={locationInput} onChange={(e) => setLocationInput(e.target.value)}/>

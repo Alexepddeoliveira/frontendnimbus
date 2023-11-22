@@ -6,6 +6,13 @@ import { useTable, useGlobalFilter, useFilters } from "react-table";
 import LinkSegunda from "../components/LinkSegunda";
 import LinkTerceira from "../components/LinkTerceira";
 import LinkQuarta from "../components/LinkQuarta";
+import logo from "./nimbus-logo1.png";
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import Select from '@mui/material/Select';
+import { DatePicker } from '@mui/x-date-pickers/DatePicker';
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 
 // Dados fictícios de estações meteorológicas
 const data = [
@@ -68,13 +75,14 @@ const Primeira = () => {
   const [endDate, setEndDate] = useState("");
   const [allFilteredData, setAllFilteredData] = useState(data);
 
-  const handleStartDateChange = (e) => {
-    setStartDate(e.target.value);
+  const handleStartDateChange = (dateValue) => {
+    setStartDate(dateValue);
   };
 
-  const handleEndDateChange = (e) => {
-    setEndDate(e.target.value);
+  const handleEndDateChange = (dateValue) => {
+    setEndDate(dateValue);
   };
+  
 
   const applyDateFilter = () => {
     if (startDate && endDate) {
@@ -118,6 +126,7 @@ const Primeira = () => {
     <div>
       <header>
         <div id="barra_escolhas">
+        <img src={logo}/>
           <LinkSegunda />
           <LinkTerceira />
           <LinkQuarta />
@@ -126,39 +135,49 @@ const Primeira = () => {
 
       <h1 id="nome_pag">Histórico de Dados - Tabela</h1>
 
-      <div>
-      <Grid container spacing={2}>
-      <Grid item xs={1.2}>
-      <TextField id="outlined-basic" label="Filtrar..." variant="outlined" value={globalFilter || ""} onChange={(e) => setGlobalFilter(e.target.value)}/>
-      </Grid>
-      <Grid item xs={1}>
-        <label>Data de Início: </label>
+      <div id="filtro-container">
+    <Grid container spacing={2}>
+        <Grid item xs={1.2}>
+            <TextField
+                id="outlined-basic"
+                label="Filtrar..."
+                variant="outlined"
+                value={globalFilter || ""}
+                onChange={(e) => setGlobalFilter(e.target.value)}
+            />
         </Grid>
         <Grid item xs={1}>
-        <input
-          type="date"
-          value={startDate}
-          onChange={handleStartDateChange}
-        />
-        </Grid>
-        <Grid item xs={1}>
-        <label>Data de Término: </label>
-        </Grid>
-        <Grid item xs={1}>
-        <input
-          type="date"
-          value={endDate}
-          onChange={handleEndDateChange}
-        />
-        </Grid>
+  <LocalizationProvider dateAdapter={AdapterDayjs}>
+    <DatePicker
+      label="Data de Início"
+      value={startDate}
+      onChange={(dateValue) => handleStartDateChange(dateValue)}
+      renderInput={(params) => <TextField {...params} />}
+    />
+  </LocalizationProvider>
+</Grid>
+<Grid item xs={1}>
+  <LocalizationProvider dateAdapter={AdapterDayjs}>
+    <DatePicker
+      label="Data de Término"
+      value={endDate}
+      onChange={(dateValue) => handleEndDateChange(dateValue)}
+      renderInput={(params) => <TextField {...params} />}
+    />
+  </LocalizationProvider>
+</Grid>
         <Grid item xs={1.3}>
-        <Button variant="contained" onClick={applyDateFilter}>Filtrar por Data</Button>
+            <Button variant="contained" onClick={applyDateFilter}>
+                Filtrar por Data
+            </Button>
         </Grid>
         <Grid item xs={1.5}>
-        <Button variant="contained" onClick={resetFilters}>Limpar Filtros</Button>
+            <Button variant="contained" onClick={resetFilters}>
+                Limpar Filtros
+            </Button>
         </Grid>
-        </Grid>
-      </div>
+    </Grid>
+</div>
       <table {...getTableProps()} style={{ width: "100%" }}>
         <thead>
           {headerGroups.map((headerGroup) => (

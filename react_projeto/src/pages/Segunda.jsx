@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from 'react'
 import LinkPrimeiro from "../components/LinkPrimeira";
 import LinkTerceira from "../components/LinkTerceira";
+import logo from "./nimbus-logo1.png";
 
 
 import {
@@ -280,6 +281,7 @@ const Segunda = () => {
 return (<div>
             <header>
                     <div id="barra_escolhas">
+                    <img src={logo}/>
                     <LinkPrimeiro />
                     <LinkTerceira />
                     <LinkQuarta />
@@ -288,7 +290,7 @@ return (<div>
 
             <h1 id="nome_pag">Histórico de Dados - Gráfico</h1>
 
-            <div>    
+            <div id="filtro-grafico">    
                 <InputLabel id="city-select-label">Cidade</InputLabel>
                 <Select
                     labelId="city-select"
@@ -300,6 +302,7 @@ return (<div>
                     <MenuItem value={'-43.2075;-22.9028'}>Rio de Janeiro</MenuItem>
                     <MenuItem value={'-49.2908;-25.504'}>Curitiba</MenuItem>
                 </Select>
+                
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
                     <DatePicker
                         label="Data de inicio"

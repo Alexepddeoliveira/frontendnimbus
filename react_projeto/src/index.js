@@ -15,9 +15,9 @@ root.render(
     <HashRouter>
       <Routes>
         <Route path="/" element={<Primeira />} />
-        <Route path="Segunda" element={<Segunda />} />
-        <Route path="Terceira" element={<Terceira />} />
-        <Route path="Quarta" element={<Quarta />} />
+        <Route path="/Segunda" element={<Segunda />} />
+        <Route path="/Terceira" element={<Terceira />} />
+        <Route path="/Quarta" element={<Quarta />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>
