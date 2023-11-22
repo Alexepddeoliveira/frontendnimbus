@@ -64,6 +64,11 @@ Perguntas | Respostas
  * API para implementar os dados do clima: OpenMeteo https://open-meteo.com/
  * API para implementar geolocalizaçao do mapa: OpenCage https://opencagedata.com/api
 
+# Apresentaçao Final
+* <a href="https://www.canva.com/design/DAFy7W_wntU/gwTJWg-atHGpyMtbhDhrSg/edit?utm_content=DAFy7W_wntU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> Link do Canva </a>
+
+# Ferramenta para Desenvolvimento Ágil 
+* <a href="https://www.notion.so/fa865d43df4f49c7b8f209f6703735f6?v=d381363a605f4880a0c376283291e492&pvs=4"> Notion </a>
 
 # 👤 Integrantes
  * Alex Oliveira
