@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from 'react'
 import LinkPrimeiro from "../components/LinkPrimeira";
 import LinkTerceira from "../components/LinkTerceira";
+import logo from "./nimbus-logo1.png";
 
 
 import {
@@ -12,9 +13,9 @@ import {
   Title,
   Tooltip,
   Legend,
-  BarElement,
+  registerables as registerablesjs
 } from 'chart.js';
-import { Chart } from 'react-chartjs-2';
+import { Line } from 'react-chartjs-2';
 import { fetchWeatherApi } from 'openmeteo';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import dayjs from 'dayjs';
@@ -31,10 +32,10 @@ import Checkbox from '@mui/material/Checkbox';
 
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
+import LinkQuarta from '../components/LinkQuarta';
+
+ChartJS.register(...registerablesjs);
 
 ChartJS.register(
   CategoryScale,
@@ -44,7 +45,6 @@ ChartJS.register(
   Title,
   Tooltip,
   Legend,
-  BarElement
 );
 
 
@@ -203,7 +203,6 @@ const Segunda = () => {
 
         }
 
-        console.log(temperature2mMax)
 
         const datasetWeather = {temperature_2m_max:             {
             label: 'Temperatura maxima',
@@ -211,7 +210,7 @@ const Segunda = () => {
             borderColor: 'rgb(232, 53, 235)',
             backgroundColor: 'rgb(232, 53, 235)',
               yAxisID: 'y',
-            type: 'line'
+            
         },
                        temperature_2m_min:             {
                         label: 'Temperatura minima',
@@ -219,7 +218,7 @@ const Segunda = () => {
                         borderColor: 'rgb(120, 53, 235)',
                         backgroundColor: 'rgb(120, 53, 235)',
                           yAxisID: 'y',
-                        type: 'line'
+                        
                     }, 
                        precipitation_sum:             {
                         label: 'Precipitação',
@@ -227,7 +226,7 @@ const Segunda = () => {
                         borderColor: 'rgb(235, 53, 53)',
                         backgroundColor: 'rgb(235, 53, 53)',
                           yAxisID: 'y',
-                        type: 'line'
+                        
                     }, 
                        rain_sum:             {
                         label: 'Chuva',
@@ -235,7 +234,7 @@ const Segunda = () => {
                         borderColor: 'rgb(53, 235, 211)',
                         backgroundColor: 'rgb(53, 235, 211)',
                           yAxisID: 'y',
-                        type: 'line'
+                        
                     }, 
                        wind_speed_10m_max:             {
                         label: 'Velocidade do vento',
@@ -243,7 +242,7 @@ const Segunda = () => {
                         borderColor: 'rgb(53, 162, 235)',
                         backgroundColor: 'rgb(53, 162, 235)',
                         yAxisID: 'y1',
-                        type: 'line'
+                        
                     }, 
                        wind_gusts_10m_max: {
                         label: 'Rajada de vento',
@@ -251,7 +250,7 @@ const Segunda = () => {
                         borderColor: 'rgb(53, 235, 53)',
                         backgroundColor: 'rgb(53, 235, 53)',
                           yAxisID: 'y',
-                        type: 'line'
+                        
                     },
                        wind_direction_10m_dominant: {
                         label: 'Direção do vento',
@@ -259,7 +258,7 @@ const Segunda = () => {
                         borderColor: 'rgb(255, 99, 132)',
                         backgroundColor: 'rgb(255, 99, 132)',
                         yAxisID: 'y',
-                        type: 'line'
+                        
                     }
                 }
 
@@ -277,14 +276,18 @@ const Segunda = () => {
     }
 
 return (<div>
-            <header>Histórico de Dados - Gráfico</header>
-            <br/>
-            <div style={{display:"flex"}}>
-                <LinkPrimeiro /> <br/>
-                <LinkTerceira /> <br/><br/><br/>
-            </div>
-            
-            <div>    
+            <header>
+                    <div id="barra_escolhas">
+                    <img src={logo}/>
+                    <LinkPrimeiro />
+                    <LinkTerceira />
+                    <LinkQuarta />
+                </div>
+            </header> 
+
+            <h1 id="nome_pag">Histórico de Dados - Gráfico</h1>
+
+            <div id="filtro-grafico">    
                 <InputLabel id="city-select-label">Cidade</InputLabel>
                 <Select
                     labelId="city-select"
@@ -296,6 +299,7 @@ return (<div>
                     <MenuItem value={'-43.2075;-22.9028'}>Rio de Janeiro</MenuItem>
                     <MenuItem value={'-49.2908;-25.504'}>Curitiba</MenuItem>
                 </Select>
+                
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
                     <DatePicker
                         label="Data de inicio"
@@ -331,7 +335,7 @@ return (<div>
                  </Grid> 
                </Grid>
     
-                {(!!graphDataDaily && wheaterOptionsDaily.length > 0)  && <Chart ref={chartRef} options={options} type='bar' data={graphDataDaily} />}
+                {(!!graphDataDaily && wheaterOptionsDaily.length > 0)  && <Line ref={chartRef} options={options} data={graphDataDaily} />}
 
             </div>;
 

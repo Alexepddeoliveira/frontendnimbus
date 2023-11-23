@@ -57,10 +57,18 @@ Perguntas | Respostas
  * Documentação é pelo GITHUB, a parte da API tem mais documentação que front end.
 
 # 🔎 Pesquisa de componentes React:
- * Componente para implementar o mapa: Leaflet.js - https://leafletjs.com/
- * Componente para implementar o gráfico: Chart.js - https://www.chartjs.org/
- * API utilizada para o clima: https://open-meteo.com/
+ * Biblioteca para implementar o mapa: Leaflet.js - https://leafletjs.com/
+ * Biblioteca para implementar o gráfico: Chart.js - https://www.chartjs.org/
+ * Biblioteca para implementar a tabela: ReactTable - https://github.com/TanStack/table/tree/v7/docs/src/pages/
+ * Componente para aprimorar o Design: MaterialUI - https://mui.com/material-ui/
+ * API para implementar os dados do clima: OpenMeteo https://open-meteo.com/
+ * API para implementar geolocalizaçao do mapa: OpenCage https://opencagedata.com/api
 
+# Apresentaçao Final
+* <a href="https://www.canva.com/design/DAFy7W_wntU/gwTJWg-atHGpyMtbhDhrSg/edit?utm_content=DAFy7W_wntU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> Link do Canva </a>
+
+# Ferramenta para Desenvolvimento Ágil 
+* <a href="https://www.notion.so/fa865d43df4f49c7b8f209f6703735f6?v=d381363a605f4880a0c376283291e492&pvs=4"> Notion </a>
 
 # 👤 Integrantes
  * Alex Oliveira
