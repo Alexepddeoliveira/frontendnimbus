@@ -41,38 +41,13 @@ Perguntas | Respostas
 * [RNF7] Deve tratar o JSON recebido com os dados.
 
 # 📇Casos de Uso:
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/fb025b52bbf35ac436c31a4b68394b13ecd5c7b9/Caso_de_Uso_Exportar.md"> Caso de Uso Exportar </a>
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/5ac8219c443fb1ced729a09a07ce632736650306/Caso_de_Uso_Grafico.md"> Caso de Uso Grafico </a>
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/5ac8219c443fb1ced729a09a07ce632736650306/Caso_de_Uso_Mapa.md"> Caso de Uso Mapa </a>
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/5ac8219c443fb1ced729a09a07ce632736650306/Caso_de_Uso_Tabela.md"> Caso de Uso Tabela </a>
 
-Elementos | Descrição
-------------------------------|----------------------------------------------
-**Nome** | Exportar Dados
-**Atores** | O usuário
-**Pré-condições** | Estar logado no sistema cronos
-**Fluxo Básico** | <ol><li>O usuário deve selecionar a opção "histórico de dados" do sistema</li><li>O sistema apresenta opções de filtros para refinar os dados apresentados de acordo com as váriaveis disponíveis, sendo elas inicio e fim, variáveis meteorológicas,frequência, estação, ponto de monitoramento, operação</li><li>O usuário escolhe como deseja visualizar os dados</li><li>O sistema apresenta os dados conforme as configurações selecionadas</li><li>O sistema apresenta opções de exportação, sendo elas CSV,PDF e PNG</li><li>O usuário escolhe como deseja exportar os dados visualizados</li><li>O sistema exporta os dados para a máquina do usuário</li></ol>
-**Pós-condições** | <ol><li>O arquivo é exportado para a maquina do usuário</li><li>O sistema apresenta uma mensagem demonstrando que o arquivo foi exportado com sucesso</li><li>A exportação é lançada no histórico do cliente</li></ol>
----------------|------------------------------------------------------------
-**Nome** | Visualizar e Análisar os Dados(tabela)
-**Atores** | O usuário
-**Pré-condições** | Estar logado no sistema cronos 
-**Fluxo Básico:** | <ol><li> O usuário deve selecionar a opção "histórico de dados" do sistema</li><li>O sistema apresenta opções de filtros para refinar os dados apresentados de acordo com as váriaveis disponíveis, sendo elas inicio e fim( com dia,mês,ano e hora), variáveis meteorológicas(Direção do vento, temperatura ponto de orvalho,umidade relativa,cota de transbordamento,rajada de vento,visibilidade,velocidade do vento,temperatura,descrição do tempo),frequência(original ou agrupado em invervalo personalizado), estação(local) ou ponto de monitoramento, operação matemática(acumulado,média,máximo,mínimo)</li><li>O sistema apresenta os dados de acordo com as configurações selecionadas, gerando uma tabela com os registros da estação escolhida, o horário da leitura e os tempos em que a chuva ocorreu.</li>
-**Pós-condições:** | <ol><li>Os dados são exibidos de acordo com as escolhas do usuário de acordo com os filtros selecionados.</li><li>O sistema permite a seleção dos filtros para ajustar quais dados serão exibidos após.</li><li>A visualização dos dados é realizada com êxito</li>
----------------|------------------------------------------------------------
-**Nome** | Visualizar e Análisar os Dados(gráfico)
-**Atores** | O usuário
-**Pré-condições** | Estar logado no sistema cronos 
-**Fluxo Básico:** | <ol><li> O usuário deve selecionar a opção "histórico de dados" do sistema</li><li>O sistema apresenta opções de filtros para refinar os dados apresentados de acordo com as váriaveis disponíveis, sendo elas inicio e fim( com dia,mês,ano e hora), variáveis meteorológicas(Direção do vento, temperatura ponto de orvalho,umidade relativa,cota de transbordamento,rajada de vento,visibilidade,velocidade do vento,temperatura,descrição do tempo),frequência(original ou agrupado em invervalo personalizado), estação(local) ou ponto de monitoramento, operação matemática(acumulado,média,máximo,mínimo)</li><li>O sistema apresenta os dados de acordo com as configurações selecionadas, gerando um gráfico que demonstre a velocidade do vento, rajada de vento e a direção do vento indicada por vetores.</li>
-**Pós-condições:** | <ol><li>Os dados são exibidos de acordo com as escolhas do usuário de acordo com os filtros selecionados.</li><li>O sistema permite a seleção dos filtros para ajustar quais dados serão exibidos após.</li><li>A visualização dos dados é realizada com êxito</li>
----------------|------------------------------------------------------------
-**Nome** | Visualizar e Análisar os Dados(mapa)
-**Atores** | O usuário
-**Pré-condições** | Estar logado no sistema cronos 
-**Fluxo Básico:** | <ol><li> O usuário deve selecionar a opção "histórico de dados" do sistema</li><li>O sistema apresenta opções de filtros para refinar os dados apresentados de acordo com as váriaveis disponíveis, sendo elas inicio e fim( com dia,mês,ano e hora), variáveis meteorológicas(Direção do vento, temperatura ponto de orvalho,umidade relativa,cota de transbordamento,rajada de vento,visibilidade,velocidade do vento,temperatura,descrição do tempo),frequência(original ou agrupado em invervalo personalizado), estação(local) ou ponto de monitoramento, operação matemática(acumulado,média,máximo,mínimo)</li><li>O sistema apresenta os dados de acordo com as configurações selecionadas, gerando um mapa interativo que demonstra as estações meteorológicas coliridas de acordo com seus estado, sendo cinza sem medição, verde sem chuva, azul chuva fraca, amarela chuva moderada, laranja chuva forte, vermelho chuva muito forte.</li><li> O usuario seleciona uma área no mapa ou uma estação específica</li><li> O sistema mostra as informações conforme as vontades do usuário</li>
-**Pós-condições:** | <ol><li>Os dados são exibidos de acordo com as escolhas do usuário de acordo com os filtros selecionados.</li><li>O sistema permite a seleção dos filtros para ajustar quais dados serão exibidos após.</li><li>A visualização dos dados é realizada com êxito</li>
-
-
- 
- 
-
-
+# 📱 Protótipo da interface:
+* <a href="https://github.com/Alexepddeoliveira/frontendnimbus/blob/b5e0036b8aa09b088147e8f63376ea4211740aec/Prototipo_Interface.md"> Protótipo Mobile </a>
 
 # ✏️ Observações:
 
@@ -80,6 +55,20 @@ Elementos | Descrição
  * End point = endereço da API, cada entrada ou saída da API é um end point.
  * Hoje não possui uma tabela no banco de dados das variáveis, eles possuem variáveis que não tem muita demanda. 
  * Documentação é pelo GITHUB, a parte da API tem mais documentação que front end.
+
+# 🔎 Pesquisa de componentes React:
+ * Biblioteca para implementar o mapa: Leaflet.js - https://leafletjs.com/
+ * Biblioteca para implementar o gráfico: Chart.js - https://www.chartjs.org/
+ * Biblioteca para implementar a tabela: ReactTable - https://github.com/TanStack/table/tree/v7/docs/src/pages/
+ * Componente para aprimorar o Design: MaterialUI - https://mui.com/material-ui/
+ * API para implementar os dados do clima: OpenMeteo https://open-meteo.com/
+ * API para implementar geolocalizaçao do mapa: OpenCage https://opencagedata.com/api
+
+# Apresentaçao Final
+* <a href="https://www.canva.com/design/DAFy7W_wntU/gwTJWg-atHGpyMtbhDhrSg/edit?utm_content=DAFy7W_wntU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> Link do Canva </a>
+
+# Ferramenta para Desenvolvimento Ágil 
+* <a href="https://www.notion.so/fa865d43df4f49c7b8f209f6703735f6?v=d381363a605f4880a0c376283291e492&pvs=4"> Notion </a>
 
 # 👤 Integrantes
  * Alex Oliveira
